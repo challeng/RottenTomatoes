@@ -1,4 +1,4 @@
-# Project 1 - *Name of App Here*
+# Project 1 - *Rotten Tomatoes*
 
 **Name of your app** is a movies app displaying box office and top
 rental DVDs using the [Rotten Tomatoes
@@ -10,11 +10,11 @@ Time spent: **X** hours spent in total
 
 The following **required** functionality is completed:
 
-- [ ] User can view a list of movies. Poster images load asynchronously.
-- [ ] User can view movie details by tapping on a cell.
-- [ ] User sees loading state while waiting for the API.
-- [ ] User sees error message when there is a network error.
-- [ ] User can pull to refresh the movie list.
+- [x] User can view a list of movies. Poster images load asynchronously.
+- [x] User can view movie details by tapping on a cell.
+- [x] User sees loading state while waiting for the API.
+- [x] User sees error message when there is a network error.
+- [x] User can pull to refresh the movie list.
 
 The following **optional** features are implemented:
 
@@ -33,7 +33,7 @@ The following **additional** features are implemented:
 - [ ] List anything else that you can get done to improve the app
   functionality!
 
-## Video Walkthrough 
+## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
