@@ -7,6 +7,7 @@
 //
 
 #import "MovieDetailsViewController.h"
+#import "UIImageView+AFNetworking.h"
 
 @interface MovieDetailsViewController ()
 @property (weak, nonatomic) IBOutlet UIImageView *backgroundImage;
@@ -37,8 +38,9 @@
     NSString *newUrlString = [urlString stringByReplacingCharactersInRange:range
                                                                 withString:@"https://content6.flixster.com/"];
     NSURL *url = [NSURL URLWithString:newUrlString];
-    NSData *imageData = [NSData dataWithContentsOfURL:url];
-    self.backgroundImage.image = [UIImage imageWithData:imageData];
+//    NSData *imageData = [NSData dataWithContentsOfURL:url];
+//    self.backgroundImage.image = [UIImage imageWithData:imageData];
+    [self.backgroundImage setImageWithURL:url];
 }
 
 - (void)didReceiveMemoryWarning {
