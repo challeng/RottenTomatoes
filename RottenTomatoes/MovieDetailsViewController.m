@@ -12,6 +12,8 @@
 @property (weak, nonatomic) IBOutlet UIImageView *backgroundImage;
 @property (weak, nonatomic) IBOutlet UILabel *titleLabel;
 @property (weak, nonatomic) IBOutlet UILabel *synopsisLabel;
+@property (weak, nonatomic) IBOutlet UIView *detailsView;
+@property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
 
 @end
 
@@ -19,9 +21,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.titleLabel.text = self.movie[@"title"];
     self.synopsisLabel.text = self.movie[@"synopsis"];
     [self.synopsisLabel sizeToFit];
+    
+
+    self.scrollView.contentSize = CGSizeMake(self.detailsView.frame.size.width, self.detailsView.frame.size.height + self.detailsView.frame.origin.y + self.titleLabel.frame.size.height + self.synopsisLabel.frame.size.height);
+    
+    self.titleLabel.text = self.movie[@"title"];
+
     
     // Load and set image
     NSString *urlString = self.movie[@"posters"][@"thumbnail"];

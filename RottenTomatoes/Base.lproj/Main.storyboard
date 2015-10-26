@@ -65,7 +65,7 @@
                     <navigationItem key="navigationItem" id="zOV-Of-Xww">
                         <nil key="title"/>
                         <view key="titleView" contentMode="scaleToFill" id="XQs-k5-LJK">
-                            <rect key="frame" x="8" y="6" width="304" height="33"/>
+                            <rect key="frame" x="8" y="5.5" width="304" height="33"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Network Error" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="yVH-aR-p7d">
@@ -95,7 +95,7 @@
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
             </objects>
-            <point key="canvasLocation" x="705" y="366"/>
+            <point key="canvasLocation" x="649" y="340"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="FTy-i8-vne">
